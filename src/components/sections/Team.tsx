@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { User, Mail, MapPin } from "lucide-react";
-import abhishaiImage from "../../images/Abhishai John Philip.png";
+import abhishaiImage from "../../images/Abhishai John Philipcopy.png";
 import alainImage from "../../images/Alain Mathew Prince.png";
 import donImage from "../../images/Don Joseph.png";
 
