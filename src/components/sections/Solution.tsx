@@ -62,10 +62,10 @@ export const Solution = () => {
 
           {/* Detailed Description */}
           <Card className="p-8 bg-gradient-dark border-primary/20">
-            <h3 className="text-2xl font-bold text-foreground mb-4 text-center">
+            <h3 className="text-2xl font-bold text-white mb-4 text-center">
               How It Works
             </h3>
-            <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto">
+            <p className="text-lg text-white leading-relaxed text-center max-w-4xl mx-auto">
               The system continuously monitors electric lines using an optocoupler sensor. 
               When a fault or break is detected, it immediately triggers the Wi-Fi-enabled MCB to cut off power supply, 
               preventing potential hazards. Simultaneously, it sends notifications through the GSM module, 

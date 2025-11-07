@@ -60,7 +60,7 @@ export const Problem = () => {
 
           {/* Main Problem Description */}
           <Card className="p-8 bg-gradient-dark border-primary/20">
-            <p className="text-lg text-foreground leading-relaxed">
+            <p className="text-lg text-white leading-relaxed">
               This delay in detecting faults can lead to <span className="text-primary font-semibold">safety risks</span>, 
               <span className="text-primary font-semibold"> equipment damage</span>, and 
               <span className="text-primary font-semibold"> longer repair times</span>. 
