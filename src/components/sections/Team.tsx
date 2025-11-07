@@ -32,7 +32,7 @@ export const Team = () => {
                 key={index}
                 className="p-8 text-center bg-card border-border hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="w-33 h-33 mx-auto mb-4 rounded-full overflow-hidden">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
                   <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-xl font-bold text-card-foreground mb-1">
