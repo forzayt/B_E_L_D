@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Zap } from "lucide-react";
 import discord from '../../images/discord.png';
-import instagram from '../../images/instagram.png';
+import github from '../../images/github.png';
 import whatsapp from '../../images/whatsapp.png';
 
 export const Contact = () => {
@@ -55,14 +55,14 @@ export const Contact = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center shrink-0">
-                    <img src={instagram} alt="Instagram" className="w-8 h-8" />
+                    <img src={github} alt="GitHub" className="w-8 h-8" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-white mb-1">Instagram</h3>
+                    <h3 className="font-bold text-white mb-1">GitHub</h3>
                     <p className="text-muted-foreground">
-                      Follow us on Instagram<br />
+                      Follow us on GitHub<br />
                       for updates and more<br />
-                      <a href="https://www.instagram.com/_ab.xhii" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">_ab.xhii</a>
+                      <a href="https://github.com/vegeta-707" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">vegeta-707</a>
                     </p>
                   </div>
                 </div>
