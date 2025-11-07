@@ -71,10 +71,10 @@ export const Hero = () => {
           </div>
 
           {/* Project Details */}
-          <div className="pt-8 text-sm text-white/70">
+          {/* <div className="pt-8 text-sm text-white/70">
             <p>Theme: Data Science and Future Technology</p>
             <p>Institution: GHSS Maloth Kasba, Kasaragod</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
