@@ -21,7 +21,8 @@ export const Team = () => {
               Meet the Team
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Dedicated innovators from GHSS Maloth Kasba working to make electrical safety accessible.
+              
+Dedicated innovators of the team working to make electrical safety accessible.
             </p>
           </div>
 
