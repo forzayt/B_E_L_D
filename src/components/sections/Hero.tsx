@@ -16,7 +16,9 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
             <Zap className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">B.E.L.D</span>
+            <Zap className="w-4 h-4 text-primary" />
           </div>
+          
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
