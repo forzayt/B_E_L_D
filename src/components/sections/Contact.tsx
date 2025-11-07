@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Zap } from "lucide-react";
+import discord from '../../images/discord.png';
 
 export const Contact = () => {
   return (
@@ -26,7 +27,7 @@ export const Contact = () => {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Email</h3>
+                    <h3 className="font-bold text-white mb-1">Email</h3>
                     <a 
                       href="mailto:abhishaijohn1@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -38,13 +39,13 @@ export const Contact = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
+                    <img src={discord} alt="Discord" className="w-8 h-8" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-foreground mb-1">Location</h3>
+                    <h3 className="font-bold text-white mb-1">Discord</h3>
                     <p className="text-muted-foreground">
-                      Vallikadavu (PO), Malom<br />
-                      Kasaragod, Kerala
+                      Join our server for updates<br />
+                      and community support
                     </p>
                   </div>
                 </div>
@@ -54,7 +55,7 @@ export const Contact = () => {
               <div className="text-center pt-8 border-t border-border">
                 <div className="inline-flex items-center gap-2 mb-4">
                   <Zap className="w-6 h-6 text-primary" />
-                  <span className="text-lg font-bold text-foreground">
+                  <span className="text-lg font-bold text-white">
                     Interested in collaboration or investment?
                   </span>
                 </div>
@@ -71,7 +72,7 @@ export const Contact = () => {
 
               {/* Thank You Note */}
               <div className="text-center pt-6">
-                <p className="text-2xl font-bold text-foreground mb-2">
+                <p className="text-2xl font-bold text-white mb-2">
                   Thank You
                 </p>
                 <p className="text-muted-foreground">
