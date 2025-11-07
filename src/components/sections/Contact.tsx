@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Zap } from "lucide-react";
 import discord from '../../images/discord.png';
+import instagram from '../../images/instagram.png';
 
 export const Contact = () => {
   return (
@@ -30,7 +31,7 @@ export const Contact = () => {
                     <h3 className="font-bold text-white mb-1">Email</h3>
                     <a 
                       href="mailto:abhishaijohn1@gmail.com"
-                      className="text-muted-foreground hover:text-primary transition-colors"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
                     >
                       abhishaijohn1@gmail.com
                     </a>
@@ -47,6 +48,20 @@ export const Contact = () => {
                       Join our server for updates<br />
                       and community support<br />
                       <a href="https://discord.gg/AY4DPR9RmR" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Join Discord</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center shrink-0">
+                    <img src={instagram} alt="Instagram" className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-white mb-1">Instagram</h3>
+                    <p className="text-muted-foreground">
+                      Follow us on Instagram<br />
+                      for updates and more<br />
+                      <a href="https://www.instagram.com/_ab.xhii" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">_ab.xhii</a>
                     </p>
                   </div>
                 </div>
