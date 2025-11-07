@@ -74,7 +74,7 @@ export const TechnicalSpecs = () => {
           </div>
 
           {/* Additional Info */}
-          <Card className="p-8 mt-12 bg-gradient-dark border-primary/20">
+          {/* <Card className="p-8 mt-12 bg-gradient-dark border-primary/20">
             <h3 className="text-2xl font-bold text-foreground mb-4 text-center">
               Technical Approach
             </h3>
@@ -85,7 +85,7 @@ export const TechnicalSpecs = () => {
               <span className="text-primary font-semibold"> high efficiency</span>, and 
               <span className="text-primary font-semibold"> adaptability</span> for both homes and industries.
             </p>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

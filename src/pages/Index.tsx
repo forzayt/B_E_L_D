@@ -15,11 +15,11 @@ const Index = () => {
       <Hero />
       <Problem />
       <Solution />
-      <Benefits />
-      <Status />
+      {/* <Benefits /> */}
+      {/* <Status /> */}
       <TechnicalSpecs />
-      <Funding />
-      <Impact />
+      {/* <Funding /> */}
+      {/* <Impact /> */}
       <Team />
       <Contact />
     </main>
