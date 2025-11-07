@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Zap } from "lucide-react";
 import discord from '../../images/discord.png';
 import instagram from '../../images/instagram.png';
+import whatsapp from '../../images/whatsapp.png';
 
 export const Contact = () => {
   return (
@@ -62,6 +63,20 @@ export const Contact = () => {
                       Follow us on Instagram<br />
                       for updates and more<br />
                       <a href="https://www.instagram.com/_ab.xhii" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">_ab.xhii</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center shrink-0">
+                    <img src={whatsapp} alt="WhatsApp" className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-white mb-1">WhatsApp</h3>
+                    <p className="text-muted-foreground">
+                      Message us on WhatsApp<br />
+                      for quick support<br />
+                      <a href="https://wa.me/919645647342" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">+91 96456 47342</a>
                     </p>
                   </div>
                 </div>
