@@ -45,7 +45,8 @@ export const Contact = () => {
                     <h3 className="font-bold text-white mb-1">Discord</h3>
                     <p className="text-muted-foreground">
                       Join our server for updates<br />
-                      and community support
+                      and community support<br />
+                      <a href="https://discord.gg/AY4DPR9RmR" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Join Discord</a>
                     </p>
                   </div>
                 </div>
