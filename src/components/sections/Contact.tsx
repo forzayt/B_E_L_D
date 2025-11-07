@@ -53,7 +53,7 @@ export const Contact = () => {
               </div>
 
               {/* CTA */}
-              <div className="text-center pt-8 border-t border-border">
+              {/* <div className="text-center pt-8 border-t border-border">
                 <div className="inline-flex items-center gap-2 mb-4">
                   <Zap className="w-6 h-6 text-primary" />
                   <span className="text-lg font-bold text-white">
@@ -69,7 +69,7 @@ export const Contact = () => {
                     Contact Team Leader
                   </Button>
                 </div>
-              </div>
+              </div> */}
 
               {/* Thank You Note */}
               <div className="text-center pt-6">
