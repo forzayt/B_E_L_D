@@ -1,11 +1,14 @@
 import { Card } from "@/components/ui/card";
 import { User, Mail, MapPin } from "lucide-react";
+import abhishaiImage from "../../images/Abhishai John Philip.png";
+import alainImage from "../../images/Alain Mathew Prince.png";
+import donImage from "../../images/Don Joseph.png";
 
 export const Team = () => {
   const team = [
-    { name: "Abhishai John Philip", role: "Team Leader" },
-    { name: "Alain Mathew Prince", role: "Team Member" },
-    { name: "Don Joseph", role: "Team Member" }
+    { name: "Abhishai John Philip", role: "Team Leader", image: abhishaiImage },
+    { name: "Alain Mathew Prince", role: "Team Member", image: alainImage },
+    { name: "Don Joseph", role: "Team Member", image: donImage }
   ];
 
   return (
@@ -29,8 +32,8 @@ export const Team = () => {
                 key={index}
                 className="p-8 text-center bg-card border-border hover:shadow-elegant hover:-translate-y-1 transition-all duration-300"
               >
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-primary rounded-full flex items-center justify-center">
-                  <User className="w-10 h-10 text-primary-foreground" />
+                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+                  <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                 </div>
                 <h3 className="text-xl font-bold text-card-foreground mb-1">
                   {member.name}
@@ -43,7 +46,7 @@ export const Team = () => {
           </div>
 
           {/* Project Details */}
-          <Card className="p-8 bg-gradient-dark border-primary/20">
+          {/* <Card className="p-8 bg-gradient-dark border-primary/20">
             <div className="text-center space-y-4">
               <h3 className="text-2xl font-bold text-foreground mb-6">
                 Project Information
@@ -59,7 +62,7 @@ export const Team = () => {
                 </div>
               </div>
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
