@@ -19,7 +19,7 @@ export const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
             Broken Electric Line
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
@@ -28,22 +28,22 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
             Intelligent IoT device that detects electric line failures, automatically switches off power, 
             and sends instant alerts to prevent electrical hazards.
           </p>
 
           {/* Key Features */}
           <div className="flex flex-wrap justify-center gap-6 pt-4">
-            <div className="flex items-center gap-2 text-foreground">
+            <div className="flex items-center gap-2 text-white">
               <Shield className="w-5 h-5 text-primary" />
               <span>Automatic Safety</span>
             </div>
-            <div className="flex items-center gap-2 text-foreground">
+            <div className="flex items-center gap-2 text-white">
               <Bell className="w-5 h-5 text-primary" />
               <span>Instant Alerts</span>
             </div>
-            <div className="flex items-center gap-2 text-foreground">
+            <div className="flex items-center gap-2 text-white">
               <Zap className="w-5 h-5 text-primary" />
               <span>Real-time Detection</span>
             </div>
@@ -69,7 +69,7 @@ export const Hero = () => {
           </div>
 
           {/* Project Details */}
-          <div className="pt-8 text-sm text-muted-foreground">
+          <div className="pt-8 text-sm text-white/70">
             <p>Theme: Data Science and Future Technology</p>
             <p>Institution: GHSS Maloth Kasba, Kasaragod</p>
           </div>
